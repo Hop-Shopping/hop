@@ -1,0 +1,26 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "minimum_chrome_version": "28", 
+  "name": "shopster.", 
+  "icons": {
+    "128": "./icons/icon128x128.png", 
+    "16": "./icons/icon128x128.png"
+  }, 
+  "offline_enabled": true, 
+  "sandbox": {
+    "pages": [
+      "embedded_ga_host.html"
+    ]
+  }, 
+  "version": "2.56", 
+  "manifest_version": 2, 
+  "permissions": [
+    "clipboardRead", 
+    "clipboardWrite", 
+    "fullscreen", 
+    "overrideEscFullscreen", 
+    "storage"
+  ], 
+  "description": "Shop. Smarter."
+}
