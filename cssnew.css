@@ -72,3 +72,37 @@ h3 {
 .description {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.navbar-nav {
+display: flex;
+list-style: none;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+text-align: left;
+color: rgba(0,0,0,.5);
+float: right;
+margin-top: 0px;
+color: (0,0,0,.5);
+text-decoration: none;
+}
+
+.navbar-nav:active {
+	color: (0,0,0,.5);
+}
+
+.nav-link {
+	color: (0,0,0,.5);
+text-decoration: none;
+}
+
+.nav-link:active {
+	color: (0,0,0,.5);
+	text-decoration: none;
+}
+
+.vog {
+	color: (0,0,0,.5);
+text-decoration: none;
+}
