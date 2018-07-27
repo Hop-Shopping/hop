@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.navbar {
+	position: fixed;
+
+	
+	background-color: black;
+	margin-left: 15vw;
+	margin-right: 10vw;
+	padding-top: -20px;
+	
+}
+
+.topbar {
+	background-color: #00000F;
+	width: 300px;
+	color: white;
+	float: left;
+	
+}
+
+.topbar:hover {
+	background-color: rgba(208,207,207,1.00);
+	color: black;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	
+	text-align: center;
+	font-weight: 100;
+}
+
+
+
+.cityandlogo {
+	background-color: rgba(237,237,237,1.00);
+	width: 259px;
+	border-radius: 50%;
+	height: 259px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	margin-left: 15vw;
+	margin-top: 150px;
+}
+
+#main {
+	font-weight: 400;
+}
+
+.ordernow {
+	margin-left: 100%;
+	position: fixed;
+	background-color: black;	
+}
+
+.getready {
+	margin-top: 150px;
+	float: right;
+	width: 550px;
+	margin-right: 250px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+
+	text-align: center;
+	font-weight: 100;
+}
+
+.description {
+	font-family: 'Montserrat', sans-serif;
+}

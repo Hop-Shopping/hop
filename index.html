@@ -1,122 +1,37 @@
 <!doctype html>
-<!--PATRICKS NOTES LMAO KMS
-make a login and signup :( my worst enemy
-make an order page that acually works
-update gcp host without having to ssh
-"Shop. Smarter."
-fix the header
--->
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>shopster.</title>
-<link href="./style.css" rel="stylesheet" type="text/css">
-<!--css sheet obviously-->
-<link href="./manifest.webapp">
-<!--new firefox os app manifest linked here coz cbf opening notepad everytime -->
-<link href="./manifest.json">
-<!--chrome app manifest, again linked here coz cbf opening notepad everytime -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rammetto+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<!--fonts from google-->
-<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script><!--fonts from adobe :(-->
+<link href="cssnew.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<div id="top"> </div>
-<!-- Header content -->
-<header>
-<div class="profileLogo"> 
-  <!-- Profile logo. Add a img tag in place of <span>. --> 
-  <a href="#top">
-  <p class="logoPlaceholder"> <span>shopster.</span></p>
-  </a>
-	<a href="./signup">
-  <p class="logoPlaceholder" style="float: right;"> <span>sign-up.</span></p>
-  </a> <a href="./login">
-  <p class="logoPlaceholder" style="float: right;"><span>login.</span></p>
-  </a></div>
-<div class="spacer"><!--this is just a spacer, ill fix this later :)--></div>
-<div class="profilePhoto"> 
-  <!-- Profile photo --> 
-  <img src="./images/adelaideroundwshopping.png" alt="sample"> </div>
-<!-- Identity details -->
-<section class="profileHeader">
-<h1>GET READY ADELAIDE.</h1>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rammetto+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
+<!--fonts from google--> 
+
+
+</body>
+<div class="navbar">
+  <div class="topbar">
+    <h1>login</h1>
+  </div>
+  <div class="topbar" >
+    <h1 id="main">shopster.</h1>
+  </div>
+  <div class="topbar">
+    <h1>sign-up</h1>
+  </div>
+</div>
+	
+<div class="cityandlogo"><img src="./images/adelaideroundwshopping.png" alt="sample"></div>
+<div  class="getready">
+	<h1>GET READY ADELAIDE.</h1>
 <h3>SHOPSTER IS COMING!!!</h3>
 <hr>
 <h3>SHOPPING.</h3>
 <p class="description"> We all hate it, It's not something you ever have time for it but its just something you gotta do. We constantly find ourselves running out of time, only to realise we still havent done our shopping. <br>
   Shopster is here to help <br>
-  Let someone else do your shopping for you, use our online ordering system to select your items and allocate a convenient drop off time and our verified shoppers will take care of the rest, delivering your items, direct to your doorstep.</p>
-	<!--
-<aside class="socialNetworkNavBar">
-<div class="socialNetworkNav" id="circle1"><img src="images/fast74round.png" alt="sample"> </div>
-<p></p>
-<div class="socialNetworkNav" id="circle2"><img src="images/easy74round.png" alt="sample"> </div>
-<p></p>
-<div class="socialNetworkNav" id="circle3"><img src="images/secure74round.png" alt="sample"> </div>
-<p></p>
-<div class="socialNetworkNav">
-<!-- Add a Anchor tag with nested img tag here --> 
-<!-- Saving for later
-      <img src="AboutPageAssets/images/social.png"  alt="sample"> --> 
-
-<!-- Links to Social network accounts -->
-
-</aside>
-</section>
-</header>
-<!-- content -->
-<section class="mainContent"> 
-  <!-- Contact details -->
-  <section class="section1">
-    <h2 class="sectionTitle">How do we do it?</h2>
-    <hr class="sectionTitleRule">
-    <hr class="sectionTitleRule2">
-    <div class="section1Content">
-      <p><span>Much like Uber or Lyft we are a</span> "man in the middle"</p>
-      <p><span>Users purchase goods using the app</span> then we tell our drivers what to get, and where to deliver it</p>
-      <p><span>We provide a convenient service </span> and great employment</p>
-      <p><span>Its a Win-</span>-Win <span>situation</span></p>
-    </div>
-  </section>
-  <!-- Previous experience details -->
-  <section class="section2">
-    <h2 class="sectionTitle">Content Holder 2</h2>
-    <hr class="sectionTitleRule">
-    <hr class="sectionTitleRule2">
-    <!-- First Title & company details  -->
-    <article class="section2Content">
-      <h2 class="sectionContentTitle">content1header</h2>
-      <h3 class="sectionContentSubTitle">content1subheader</h3>
-      <p class="sectionContent"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. </p>
-    </article>
-    <!-- Second Title & company details  -->
-    <article class="section2Content">
-      <h2 class="sectionContentTitle"> content2header</h2>
-      <h3 class="sectionContentSubTitle">content2subheader</h3>
-      <p class="sectionContent"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. </p>
-    </article>
-    <!-- Replicate the above Div block to add more title and company details --> 
-  </section>
-  <!-- Links to expore your past projects and download your CV -->
-  <aside class="externalResourcesNav">
-    <div class="externalResources" id="orderbutton"><a href="http://shopsterorder.ml" title="button1">ORDER NOW</a> </div>
-    <span class="stretch"></span>
-    <div class="externalResources"><a href="#" title="button2">button2</a> </div>
-    <span class="stretch"></span>
-    <div class="externalResources"><a href="#" title="button3">button3</a> </div>
-  </aside>
-</section>
-<footer>
-  <hr>
-  <p class="footerDisclaimer">2018  Copyrights - <span>All Rights Reserved</span></p>
-  <a href="./offline/index.html">
-  <p class="footerNote">Made with love and lots of full stops in Adelaide AUS <span>:)</span></p>
-  </a> <form action="clone.php">
-    <input type="submit" value="reclone">
-</form></footer>
-</body>
+  Let someone else do your shopping for you, use our online ordering system to select your items, allocate a convenient drop off time and our verified shoppers will take care of the rest, delivering your items, direct to your doorstep.</p></div>
 </html>
