@@ -5,7 +5,6 @@ rgba(208,207,207,1.00) 		that gray
 <html>
 <head>
 <meta charset="utf-8">
-<title>shopster.</title>
 <link href="cssnew.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rammetto+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
@@ -15,15 +14,11 @@ rgba(208,207,207,1.00) 		that gray
 <body class="noselect">
 
 <div class="navbar noselect">
-  <div class="topbar">
-    <h1>login <sub>(alpha)</sub></h1>
-  </div>
+
   <div class="topbar" >
     <h1 id="main">shopster.<sub>(alpha)</sub></h1>
   </div>
-  <div class="topbar">
-    <h1>sign-up<sub>(alpha)</sub></h1>
-  </div>
+
 </div>
 	
 <div class="cityandlogo"><img src="./images/adelaideroundwshopping.png" alt="sample"></div>
@@ -36,8 +31,5 @@ rgba(208,207,207,1.00) 		that gray
   Shopster is here to help <br>
   Let someone else do your shopping for you, use our online ordering system to select your items, allocate a convenient drop off time and our verified shoppers will take care of the rest, delivering your items, direct to your doorstep.</p></div>
 </body>
-	<body>
-	
-	</body>
 
 </html>
