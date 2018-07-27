@@ -98,3 +98,7 @@ sub {
 	font-size: 10px;
 	font-weight: 100;
 }
+
+.adminbutton {
+	visibility: hidden;
+}
