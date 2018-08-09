@@ -49,11 +49,16 @@ h1 {
 	clear: both;
 	margin-left: 15vw;
 	margin-top: 200px;
+	-webkit-filter: brightness(100%);
 }
 
 #main {
 	font-weight: 400;
+	background-color: #d0ddf2;
+	color: black;
 }
+
+	
 
 .ordernow {
 	margin-left: 100%;
@@ -102,3 +107,21 @@ sub {
 .adminbutton {
 	visibility: hidden;
 }
+
+#main:hover {
+	/* background-color: #001333; 
+	color: white;*/
+}
+
+.cityandlogo:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.cityandlogo>.orderover { display: none; }
+.cityandlogo:hover>.orderover { display: block; }
+
