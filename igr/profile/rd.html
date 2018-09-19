@@ -3,17 +3,20 @@
 <head>
 <meta charset="utf-8">
 <title>Post Redirector</title>
+<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<iframe src="https://instagram.com/profile/xstma"></iframe>
 <script type="text/javascript"> // <![CDATA[
-//iPhone Version:
+//iPhone Version: instagram://user?username=xstma
 if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-    window.location = "instagram://user?username=xstma";
+    document.getElementById(iosbutton).style.visibility = visible
 }
-//Android Version:
+//Android Version: intent://instagram.com/_u/xstma/#Intent;package=com.instagram.android;scheme=https;end
 if(navigator.userAgent.match(/android/i)) {
-    window.location = "intent://instagram.com/_u/xstma/#Intent;package=com.instagram.android;scheme=https;end";
+	document.getElementById(androidbutton).style.visibility = visible
 }
 </script>
+	<img class="androidbutton" src="">
 </body>
 </html>

@@ -1,0 +1,10 @@
+@charset "utf-8";
+.androidbutton {
+	visibility: hidden;
+}
+iframe {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	z-index: 0;
+}
