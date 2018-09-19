@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Post Redirector</title>
+</head>
+<body>
+<script type="text/javascript"> // <![CDATA[
+//iPhone Version:
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    window.location = "instagram://user?username=xstma";
+}
+//Android Version:
+if(navigator.userAgent.match(/android/i)) {
+    window.location = "intent://instagram.com/_u/xstma/#Intent;package=com.instagram.android;scheme=https;end";
+}
+</script>
+</body>
+</html>
