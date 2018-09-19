@@ -68,9 +68,9 @@ h1 {
 
 .getready {
 	margin-top: 150px;
-	float: right;
-	width: 550px;
-	margin-right: 250px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
 	color: #001333;
 }
 
@@ -96,7 +96,7 @@ h3 {
 }
 
 body {
-	background: #ffffff url("images/smooth.jpg") no-repeat right top;
+	background: #ffffff url("../images/smooth.jpg") no-repeat right top;
 }
 
 sub {
