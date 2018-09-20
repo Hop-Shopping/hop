@@ -14,7 +14,9 @@
 	margin-left: 15vw;
 	margin-right: 10vw;
 	padding-top: -20px;
-	
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .topbar {
@@ -22,7 +24,6 @@
 	width: 300px;
 	color: white;
 	float: left;
-	
 }
 
 .topbar:hover {
@@ -179,7 +180,7 @@ sub {
 	height: 300px;
 	color: white;
 	top: 200px;
-	left: 180px;
+	left: 200px;
 }
 
 .trans {
@@ -215,4 +216,24 @@ sub {
 .clover:hover:nth-child(1) {
     border-bottom-right-radius: 128px;
     border-top-left-radius: 0px;
+}
+
+#login {
+ 	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#signup {
+	border-top-right-radius: 20px;
+}
+
+.orderstyle {
+	float: left;
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	color: white;
+	top: 200px;
+	padding-left: 200px;;
+	left: 200px;
 }
