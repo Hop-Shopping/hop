@@ -113,22 +113,22 @@ sub {
 	color: white;*/
 }
 
-.cityandlogo:hover {
+/*.cityandlogo:hover {
     -webkit-filter: brightness(70%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-}
+}*/
 
-.cityandlogo>.orderover { display: none; }
+/*.cityandlogo>.orderover { display: none; }*/
 .cityandlogo:hover>.orderover { display: block; }
 
 
 .orderover {
 	position: fixed;
-	top: 90px;
+	top: 60px;
 	left: 80px;
 	width: 100px;
 }
@@ -136,5 +136,83 @@ sub {
 .hic {
 	line-height: 10px;
 	margin-bottom: -10px;
-	font-weight: 400;
+	font-weight: bold;
+}
+
+.round {
+	width: 259px;
+}
+
+.cta {
+		
+	line-height: 250px;
+	font-weight: bold;
+	
+}
+
+.cta:hover {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 200px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.cleaffix:after {
+    clear: both;
+}
+
+.left {
+    float: left;
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	color: white;
+	top: 200px;
+	left: 180px;
+}
+
+.trans {
+    -webkit-transition: background 1s, border-radius 1s;
+    transition: background 1s, border-radius 1s;
+}
+
+.container div {
+    min-width: 256px;
+    min-height: 256px;
+    background: #001333;
+    border-radius: 128px;
+}
+
+.container {
+    max-width: 512px;
+}
+
+.clover:nth-child(1) {
+    border-bottom-right-radius: 0px;
+}
+
+.circle:hover,
+.clover:hover {
+    background: #d0ddf2;
+	color: black;
+}
+
+.circle:hover {
+    border-radius: 0px;
+}
+
+.clover:hover:nth-child(1) {
+    border-bottom-right-radius: 128px;
+    border-top-left-radius: 0px;
 }
