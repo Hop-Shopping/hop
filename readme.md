@@ -21,7 +21,7 @@ rgba(208,207,207,1.00) 		that gray
 
 </div>
 	
-<div class="cityandlogo"><img src="./images/adelaideroundwshopping.png" alt="sample"></div>
+<div class="cityandlogo"><img src="./images/darkbluehop.png" alt="sample"></div>
 <div  class="getready">
 	<h1>GET READY ADELAIDE.</h1>
 <h3>hop IS COMING!!!</h3>
