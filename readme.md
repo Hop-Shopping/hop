@@ -16,7 +16,7 @@ rgba(208,207,207,1.00) 		that gray
 <div class="navbar noselect">
 
   <div class="topbar" >
-    <h1 id="main">shopster.<sub>(alpha)</sub></h1>
+    <h1 id="main">hop.<sub>(alpha)</sub></h1>
   </div>
 
 </div>
@@ -24,11 +24,11 @@ rgba(208,207,207,1.00) 		that gray
 <div class="cityandlogo"><img src="./images/adelaideroundwshopping.png" alt="sample"></div>
 <div  class="getready">
 	<h1>GET READY ADELAIDE.</h1>
-<h3>SHOPSTER IS COMING!!!</h3>
+<h3>hop IS COMING!!!</h3>
 <hr>
 <h3>SHOPPING.</h3>
 <p class="description"> We all hate it, It's not something you ever have time for it but its just something you gotta do. We constantly find ourselves running out of time, only to realise we still havent done our shopping. <br>
-  Shopster is here to help <br>
+  hop is here to help <br>
   Let someone else do your shopping for you, use our online ordering system to select your items, allocate a convenient drop off time and our verified shoppers will take care of the rest, delivering your items, direct to your doorstep.</p></div>
 </body>
 
