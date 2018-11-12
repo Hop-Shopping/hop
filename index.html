@@ -1,19 +1,3 @@
-<!--Serch Php-->
-<?php
-$db_hostname = 'localhost';
-$db_username = 'demo';
-$db_password = 'demo';
-$db_database = 'demo';
-
-// Database Connection String
-$con = mysql_connect($db_hostname,$db_username,$db_password);
-if (!$con)
-  {
-  die('Could not connect: ' . mysql_error());
-  }
-
-mysql_select_db($db_database, $con);
-?>
 <!doctype html>
 <!--the sexy colours:
 #001333 					that dark blue
@@ -26,10 +10,9 @@ test-->
 <title>hop.</title>
 <link rel="icon" href="/images/icon.png">
 <link href="cssnew.css" rel="stylesheet" type="text/css">
-<!--fonts from google-->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rammetto+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
-
+<!--fonts from google-->
 
 </head>
 
@@ -65,28 +48,6 @@ test-->
   <br>
   <p class="description"> Let someone else do your shopping for you, use our online ordering system to select your items, allocate a convenient drop off time and our verified shoppers will take care of the rest, delivering your items, direct to your doorstep.</p>
 </div>
-<form action="" method="post">  
-  Search: <input type="text" name="term" /><br />  
-  <input type="submit" value="Submit" />  
-  </form>  
-  <?php
-  if (!empty($_REQUEST['term'])) {
-  
-  $term = mysql_real_escape_string($_REQUEST['term']);     
-  
-  $sql = "SELECT * FROM liam WHERE Description LIKE '%".$term."%'"; 
-  $r_query = mysql_query($sql); 
-  
-  while ($row = mysql_fetch_array($r_query)){  
-  echo 'Primary key: ' .$row['PRIMARYKEY'];  
-  echo '<br /> Code: ' .$row['Code'];  
-  echo '<br /> Description: '.$row['Description'];  
-  echo '<br /> Category: '.$row['Category'];  
-  echo '<br /> Cut Size: '.$row['CutSize'];   
-  }  
-  
-  }
-  ?>
 </body>
 <body>
 </body>
