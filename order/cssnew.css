@@ -91,6 +91,8 @@ h3 {
 
 body {
 	background: #ffffff url("../images/smooth.jpg") no-repeat right top;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 sub {
@@ -128,6 +130,8 @@ sub {
 }
 
 .resp-container {
+	overflow-x: visible;
+	overflow-y: visible;
 }
 .resp-iframe {
     top: 0;
