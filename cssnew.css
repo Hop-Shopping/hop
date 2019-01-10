@@ -9,7 +9,7 @@
                                   supported by Chrome and Opera */
 }
 .navbar {
-  display: inline-table;
+  display: inline-block;
   padding-top: -20px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -35,18 +35,6 @@ h1 {
   font-weight: 100;
 }
 
-.cityandlogo {
-  background-color: rgba(237, 237, 237, 1);
-  width: 259px;
-  border-radius: 50%;
-  height: 259px;
-  display: inline-block;
-  float: left;
-  clear: both;
-  margin-left: 15vw;
-  margin-top: 200px;
-  -webkit-filter: brightness(100%);
-}
 
 #main {
   font-weight: 400;
@@ -102,10 +90,7 @@ sub {
   visibility: hidden;
 }
 
-#main:hover {
-  /* background-color: #001333; 
-	color: white;*/
-}
+
 
 /*.cityandlogo:hover {
     -webkit-filter: brightness(70%);
