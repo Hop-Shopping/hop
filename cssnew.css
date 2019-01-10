@@ -1,116 +1,109 @@
 @charset "utf-8";
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
 .navbar {
-	position: fixed;
-	background-color: #001333;
-	margin-left: 15vw;
-	margin-right: 10vw;
-	padding-top: -20px;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
-	border-top-right-radius: 20px;
+  display: inline-table;
+  padding-top: -20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .topbar {
-	background-color: #001333;
-	width: 300px;
-	color: white;
-	float: left;
+  background-color: #001333;
+  width: 300px;
+  color: white;
+  float: left;
 }
 
 .topbar:hover {
-	background-color: #d0ddf2;
-	color: black;
+  background-color: #d0ddf2;
+  color: black;
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	
-	text-align: center;
-	font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+  font-weight: 100;
 }
 
-
-
 .cityandlogo {
-	background-color: rgba(237,237,237,1.00);
-	width: 259px;
-	border-radius: 50%;
-	height: 259px;
-	display: inline-block;
-	float: left;
-	clear: both;
-	margin-left: 15vw;
-	margin-top: 200px;
-	-webkit-filter: brightness(100%);
+  background-color: rgba(237, 237, 237, 1);
+  width: 259px;
+  border-radius: 50%;
+  height: 259px;
+  display: inline-block;
+  float: left;
+  clear: both;
+  margin-left: 15vw;
+  margin-top: 200px;
+  -webkit-filter: brightness(100%);
 }
 
 #main {
-	font-weight: 400;
-	background-color: #d0ddf2;
-	color: black;
+  font-weight: 400;
+  background-color: #d0ddf2;
+  color: black;
 }
 
-	
-
 .ordernow {
-	margin-left: 100%;
-	position: fixed;
-	background-color: black;	
+  margin-left: 100%;
+  position: fixed;
+  background-color: black;
 }
 
 .getready {
-	margin-top: 150px;
-	float: right;
-	width: 550px;
-	margin-right: 250px;
-	color: #001333;
+  margin-top: 50px;
+  float: none;
+  width: 550px;
+  display: inline-table;
+  color: #001333;
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
-	text-align: center;
-	font-weight: 100;
+  text-align: center;
+  font-weight: 100;
 }
 
 .description {
-	font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-nav {
-	float: right;
+  float: right;
 }
 
 .sec1 {
-	margin-top: 800px;
-	background-image: url(smooth.jpg);
-     background-repeat: no-repeat;
+  margin-top: 800px;
+  background-image: url(smooth.jpg);
+  background-repeat: no-repeat;
 }
 
 body {
-	background: #ffffff url("images/smooth.jpg") no-repeat right top;
+  background: #ffffff url("images/smooth.jpg") no-repeat right top;
 }
 
 sub {
-	font-size: 10px;
-	font-weight: 100;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .adminbutton {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 #main:hover {
-	/* background-color: #001333; 
+  /* background-color: #001333; 
 	color: white;*/
 }
 
@@ -124,116 +117,113 @@ sub {
 }*/
 
 /*.cityandlogo>.orderover { display: none; }*/
-.cityandlogo:hover>.orderover { display: block; }
-
+.cityandlogo:hover > .orderover {
+  display: block;
+}
 
 .orderover {
-	position: fixed;
-	top: 60px;
-	left: 80px;
-	width: 100px;
+  position: fixed;
+  top: 60px;
+  left: 80px;
+  width: 100px;
 }
 
 .hic {
-	line-height: 10px;
-	margin-bottom: -10px;
-	font-weight: bold;
+  line-height: 10px;
+  margin-bottom: -10px;
+  font-weight: bold;
 }
 
 .round {
-	width: 259px;
+  width: 259px;
 }
 
 .cta {
-		
-	line-height: 250px;
-	font-weight: bold;
-	
+  line-height: 250px;
+  font-weight: bold;
 }
 
 .cta:hover {
-	border-top-left-radius: 0px;
-	border-top-right-radius: 200px;
-	border-bottom-left-radius: 200px;
-	border-bottom-right-radius: 200px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
 }
-
-
-
-
-
 
 .clearfix:before,
 .clearfix:after {
-    content: '';
-    display: table;
+  content: "";
+  display: table;
 }
 
 .cleaffix:after {
-    clear: both;
+  clear: both;
 }
 
 .left {
-    float: left;
-	position: fixed;
-	width: 300px;
-	height: 300px;
-	color: white;
-	top: 200px;
-	left: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  color: white;
 }
 
 .trans {
-    -webkit-transition: background 1s, border-radius 1s;
-    transition: background 1s, border-radius 1s;
+  -webkit-transition: background 1s, border-radius 1s;
+  transition: background 1s, border-radius 1s;
 }
 
 .container div {
-    min-width: 256px;
-    min-height: 256px;
-    background: #001333;
-    border-radius: 128px;
+  min-width: 256px;
+  min-height: 256px;
+  background: #001333;
+  border-radius: 128px;
 }
 
 .container {
-    max-width: 512px;
+  max-width: 512px;
 }
 
 .clover:nth-child(1) {
-    border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .circle:hover,
 .clover:hover {
-    background: #d0ddf2;
-	color: black;
+  background: #d0ddf2;
+  color: black;
 }
 
 .circle:hover {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
 .clover:hover:nth-child(1) {
-    border-bottom-right-radius: 128px;
-    border-top-left-radius: 0px;
+  border-bottom-right-radius: 128px;
+  border-top-left-radius: 0px;
 }
 
 #login {
- 	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 #signup {
-	border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .orderstyle {
-	float: left;
-	position: fixed;
-	width: 300px;
-	height: 300px;
-	color: white;
-	top: 200px;
-	padding-left: 200px;;
-	left: 200px;
+  float: left;
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  color: white;
+  top: 200px;
+  padding-left: 200px;
+  left: 200px;
+}
+
+.makeitmiddle {
+  text-align: center;
 }
