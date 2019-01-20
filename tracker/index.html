@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--the sexy colours:
+#001333 					that dark blue
+rgba(208,207,207,1.00) 		that gray
+#d0ddf2						that blue gray
+test-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>hop.</title>
+    <link rel="icon" href="/images/icon.png" />
+    <link href="http://hopshop.duckdns.org/cssnew.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="input.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Rammetto+One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700"
+      rel="stylesheet"
+    />
+    <!--fonts from google-->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.js"></script>
+  </head>
+
+  <body class="noselect">
+    <div class="adminbutton" id="stylishover">
+      <a href="./phpmyadmin/">lamppdash</a>
+    </div>
+    <div class="makeitmiddle">
+      <div class="navbar noselect">
+        <div
+          class="topbar"
+          id="login"
+          onclick="location='http://35.239.248.122/index.php/customer/account/login/'"
+        >
+          <h1>login <sub>(alpha)</sub></h1>
+        </div>
+        <div class="topbar" id="main">
+          <h1>hop.<sub>(alpha)</sub></h1>
+        </div>
+        <div
+          class="topbar"
+          id="signup"
+          onclick="location='http://35.239.248.122/index.php/customer/account/create/'"
+        >
+          <h1>sign-up<sub>(alpha)</sub></h1>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="makeitmiddle">
+      <div class="getready ">
+        <h1>Track an order</h1>
+        <h3>Enter your tracking number below</h3>
+        <hr />
+        <script>
+        window.onload = function() {
+  document.getElementById('btn').onclick = function()
+  {
+    window.location.href = "http://hoptrack.aftership.com/"+document.getElementById("url").value
+  };
+}
+        </script>
+        <input type="text" id="url" placeholder="">
+      </div>
+    </div>
+    <div class="makeitmiddle">
+        <div class="clearfix container left">
+          <div class="clover trans left" id="btn"><h1 class="cta">TRACK</h1></div>
+        </div>
+
+    </div>
+  </body>
+  <body></body>
+</html>
